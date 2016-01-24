@@ -1,0 +1,25 @@
+
+<h2 class= "nav-cat">Navigation/Maps</h2>
+
+<% @addonmaps = Addon.where(category: "Maps") %>
+<% @addonmaps.each do |addon| %>
+<%= link_to addon.name, addon_path(addon) %><br>
+<%= addon.description %><br>
+<%= addon.category %><br>
+<%= addon.support %><br>
+
+<% end %>
+
+
+<h2 class= "ui-cat">UI</h2>
+
+<h2 class= "tool-cat">Toolbars</h2>
+
+<h2 class= "quest-cat">Questing</h2>
+
+<h2 class= "ah-cat">Auction House</h2>
+
+<h2 class= "meter-cat">Meters</h2>
+
+<h2 class= "bag-cat">Bags</h2>
+
