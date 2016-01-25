@@ -1,25 +1,44 @@
 
-<h2 class= "nav-cat">Navigation/Maps</h2>
+<div class="most-pop">
+<h2 class="nav-cat">Most Popular</h2>
+</div>
 
-<% @addonmaps = Addon.where(category: "Maps") %>
-<% @addonmaps.each do |addon| %>
-<%= link_to addon.name, addon_path(addon) %><br>
-<%= addon.description %><br>
-<%= addon.category %><br>
-<%= addon.support %><br>
+<div class="categories">
 
-<% end %>
+<div class="cat">
+<h2>Navigation/Maps</h2>
+<%= link_to image_tag('map.png'), category_path(@categories.where(category_id: 1).first), class: "mapimg" %></a>
+</div>
 
 
-<h2 class= "ui-cat">UI</h2>
+<div class="cat">
+<h2>UI</h2>
+<%= image_tag "UI.png", class: "uiimg" %>
+</div>
 
-<h2 class= "tool-cat">Toolbars</h2>
+<div class="cat">
+<h2>Auction House</h2>
+<%= image_tag "ah.png", class: "ahimg" %>
+</div>
 
-<h2 class= "quest-cat">Questing</h2>
+<div class="cat">
+<h2>Toolbars</h2>
+<%= image_tag "toolbar.png", class: "toolimg" %>
+</div>
 
-<h2 class= "ah-cat">Auction House</h2>
+<div class="cat">
+<h2>Questing</h2>
+<%= image_tag "quest.png", class: "questimg" %>
+</div>
 
-<h2 class= "meter-cat">Meters</h2>
+<div class="cat">
+<h2>Meters</h2>
+<%= image_tag "meters.jpg", class: "metersimg" %>
+</div>
 
-<h2 class= "bag-cat">Bags</h2>
+<div class="cat">
+<h2>Bags</h2>
+<%= image_tag "bag.png", class: "bagimg" %>
+</div>
 
+</div>

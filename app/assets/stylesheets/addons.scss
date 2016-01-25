@@ -1,3 +1,80 @@
 // Place all the styles related to the addons controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.most-pop{
+	margin-top: 20px;
+	margin-left: 20px;
+	height: 500px;
+	width: 20%;
+	border: 2px solid black;
+    background: black;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.categories {
+	display: inline-block;
+	width: 74%;
+	margin-left: 2%;
+	margin-top: 20px;
+	background: black;
+}
+
+
+.cat{
+	padding: 10px;
+	display: inline-block;
+	margin-left: 8%;
+	vertical-align: top;
+	width: 200px;
+	height: 300px;
+}	
+
+.mapimg img{
+	width: 200px;
+	height: 200px;
+	margin-top: 10px;
+}
+
+.uiimg {
+	width: 200px;
+	height: 150px;
+	margin-top: 20px;
+}
+
+.toolimg {
+	width: 175px;
+	height: 150px;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.ahimg{
+	width: 150px;
+	height: 150px;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+.questimg{
+	width: 50px;
+	height: 150px;
+	margin-left: 75px;
+	margin-top: 20px;
+}
+
+.metersimg {
+	width: 175px;
+	height: 175px;
+	margin-top: 20px;
+	margin-left: 15px;
+}
+
+.bagimg {
+	width: 125px;
+	height: 125px;
+	margin-top: 20px;
+	margin-left: 40px;
+}

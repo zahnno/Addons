@@ -5,9 +5,15 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+
 </head>
+
 <body>
-<h1>Vanilla Addons</h1>
+<header>
+<%= image_tag "vanlogo.png", class: "logo" %>
+</header>
 <%= yield %>
 
 </body>

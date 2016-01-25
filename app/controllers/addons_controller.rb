@@ -3,6 +3,7 @@ class AddonsController < ApplicationController
 
 def index
 	@addons = Addon.all
+	@categories = Category.all
 end
 
 def show

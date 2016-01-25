@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+
+body{
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	background: url("backimg2.png");
+	background-size: cover;
+	color: white;
+}
+
+h2{
+	text-align: center;
+}
+
+.logo {
+	margin-top: 10px;
+	width: 200px;
+	height: 75px;
+}
+
+header {
+	height: 100px;
+	background: black;
+}

@@ -8,3 +8,5 @@
 
 
 map = Addon.create(name: "Questie", description: "This addon will allow the user to quest with utter ease. From level 1 to 60 this will get you from point A to point B with ease", category: "Maps", support: "Version 1.12.1")
+
+nav = Category.create(name: "Navigation/Maps", image: "http://jeffstieler.com/app/uploads/2009/03/picture-2.png", category_id: 1)
