@@ -12,9 +12,11 @@
 
 <body>
 <header>
-<%= image_tag "vanlogo.png", class: "logo" %>
+<%= link_to image_tag('vanlogo.png'), addons_path, class: "logo" %>
 </header>
 <%= yield %>
-
+<footer>
+	
+</footer>
 </body>
 </html>

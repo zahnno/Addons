@@ -1,0 +1,13 @@
+<div class="cat-addons">
+
+	<h1><%= @category.name %></h1>
+
+	<% @addons.each do |addon| %>
+	<div class="top3">
+	<%= link_to addon.name, addon_path(addon) %>
+	<%= addon.image %>
+	<%= addon.support %>
+	<%= addon.description %>
+	</div>
+	<% end %>
+</div>

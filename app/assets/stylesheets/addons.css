@@ -1,25 +1,20 @@
-// Place all the styles related to the addons controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
 
 .most-pop{
-	margin-top: 20px;
-	margin-left: 20px;
-	height: 500px;
-	width: 20%;
-	border: 2px solid black;
-    background: black;
-    text-align: center;
+	margin-top: 20px;	
+	height: auto;
+	text-align: center;
+	padding-bottom: 50px;
+	width: 100%;
     display: inline-block;
     vertical-align: top;
 }
 
 .categories {
 	display: inline-block;
-	width: 74%;
-	margin-left: 2%;
+	width: 100%;
 	margin-top: 20px;
 	background: black;
+	text-align: center;
 }
 
 
@@ -28,7 +23,7 @@
 	display: inline-block;
 	margin-left: 8%;
 	vertical-align: top;
-	width: 200px;
+	width: 150px;
 	height: 300px;
 }	
 
@@ -48,20 +43,19 @@
 	width: 175px;
 	height: 150px;
 	margin-top: 20px;
-	margin-left: 10px;
 }
 
 .ahimg{
 	width: 150px;
 	height: 150px;
 	margin-top: 10px;
-	margin-left: 30px;
+
 }
 
 .questimg{
 	width: 50px;
 	height: 150px;
-	margin-left: 75px;
+
 	margin-top: 20px;
 }
 
@@ -69,12 +63,32 @@
 	width: 175px;
 	height: 175px;
 	margin-top: 20px;
-	margin-left: 15px;
+
 }
 
 .bagimg {
 	width: 125px;
 	height: 125px;
 	margin-top: 20px;
-	margin-left: 40px;
+
+}
+.top3 img{
+	width: 100px;
+	height: 100px;
+}
+.top3 {
+	text-align: center;
+	width: 300px;
+	height: 420px;
+	margin-left: 2%;
+	margin-top: 2%;
+	background: #1a1a1a;
+	display: inline-block;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.mainaddon{
+	background: black;
+	height: auto;
 }
