@@ -35,40 +35,41 @@
 
 <div class="categories">
 
+<h1> Categories </h1>
+
 <div class="cat" style="margin-left:10px;">
 <h2>Navigation/Maps</h2>
-<%= link_to image_tag('map.png'), category_path(@categories.where(category_id: 1).first), class: "mapimg" %></a>
+<%= link_to image_tag('map.png'), category_path(@categories.where(category_id: 1).first), class: "mapimg" %>
 </div>
-
 
 <div class="cat">
 <h2>UI</h2>
-<%= image_tag "UI.png", class: "uiimg" %>
+<%= link_to image_tag("UI.png"), category_path(@categories.where(category_id: 2).first), class: "uiimg" %>
 </div>
 
 <div class="cat">
 <h2>Auction House</h2>
-<%= image_tag "ah.png", class: "ahimg" %>
+<%= link_to image_tag("ah.png"), category_path(@categories.where(category_id: 3).first), class: "ahimg" %>
 </div>
 
 <div class="cat">
 <h2>Toolbars</h2>
-<%= image_tag "toolbar.png", class: "toolimg" %>
+<%= link_to image_tag("toolbar.png"), category_path(@categories.where(category_id: 4).first), class: "toolimg" %>
 </div>
 
 <div class="cat">
 <h2>Questing</h2>
-<%= image_tag "quest.png", class: "questimg" %>
+<%= link_to image_tag("quest.png"), category_path(@categories.where(category_id: 5).first), class: "questimg" %>
 </div>
 
 <div class="cat">
 <h2>Meters</h2>
-<%= image_tag "meters.jpg", class: "metersimg" %>
+<%= link_to image_tag("meters.jpg"), category_path(@categories.where(category_id: 6).first), class: "metersimg" %>
 </div>
 
 <div class="cat">
 <h2>Bags</h2>
-<%= image_tag "bag.png", class: "bagimg" %>
+<%= link_to image_tag("bag.png"), category_path(@categories.where(category_id: 7).first), class: "bagimg" %>
 </div>
 
 </div>

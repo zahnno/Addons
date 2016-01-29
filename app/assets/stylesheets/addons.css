@@ -21,9 +21,9 @@
 .cat{
 	padding: 10px;
 	display: inline-block;
-	margin-left: 8%;
+	text-align: center;
 	vertical-align: top;
-	width: 150px;
+	width: 250px;
 	height: 300px;
 }	
 
