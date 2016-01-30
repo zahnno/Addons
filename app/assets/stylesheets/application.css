@@ -158,3 +158,11 @@ header {
 .soc-youtube:hover {
     background-color: #cc160c;
 }
+
+.social{
+	width:500px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	margin-top: 110px;
+}
