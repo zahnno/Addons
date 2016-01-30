@@ -1,20 +1,20 @@
 
-.most-pop{
-	margin-top: 20px;	
+.most-pop{	
 	height: auto;
 	text-align: center;
 	padding-bottom: 50px;
 	width: 100%;
     display: inline-block;
     vertical-align: top;
+    background: black;
 }
 
 .categories {
 	border-top: 3px solid #333333;
+	border-bottom: 3px solid #333333;
 	display: inline-block;
 	width: 100%;
 	margin-top: 0;
-	background: black;
 	text-align: center;
 }
 
@@ -101,7 +101,7 @@
 }
 
 .top3 a:hover{
-	color: grey;
+	color: lightgreen;
 	transition: .5s;
 }
 
@@ -156,3 +156,45 @@ p { margin: 0; padding: 0; font-family: sans-serif;}
     background: -o-linear-gradient(to right, rgba(26, 26, 26, 0), #1a1a1a 50%, #1a1a1a);
     background: -ms-linear-gradient(to right, rgba(26, 26, 26, 0), #1a1a1a 50%, #1a1a1a);
     background: linear-gradient(to right, rgba(26, 26, 26, 0), #1a1a1a 50%, #1a1a1a); }
+
+.imageshow {
+	display: inline-block;
+	width: 40%;
+	height: auto;
+ }
+
+ .mainaddon{
+ 	padding: 100px 50px;
+ }
+
+.desc{
+ 	display: inline-block;
+ 	width: 50%;
+ 	vertical-align: top;
+ 	margin-top: 0;
+ 	text-align: center;
+ 	margin-left: 5%;
+ }
+
+ footer{
+ 	background: #1a1a1a;
+ }
+
+ .about{
+ 	text-align: center;
+ 	background: black;
+ }
+
+ .footlogo{
+ 	display: inline-block;
+ 	margin-top: 50px;
+ 	margin-bottom: 50px;
+ }
+ .aboutlink{
+ 	float: right;
+ 	margin-top: 120px;
+ 	margin-right: 10%;
+ 	text-decoration: none;
+ 	color: white;
+ 	font-size: 40px;
+ }

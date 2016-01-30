@@ -1,3 +1,4 @@
+
 <div class="most-pop">
 	<h2 class="nav-cat">Most Popular</h2>
 	<% @top3[0..2].each do |addon| %>
@@ -18,45 +19,4 @@
 	<% end %>
 </div>
 
-
-<div class="categories">
-
-<h1> Categories </h1>
-
-<div class="cat" style="margin-left:10px;">
-<h2>Navigation/Maps</h2>
-<%= link_to image_tag('map.png'), category_path(@categories.where(category_id: 1).first), class: "mapimg" %>
-</div>
-
-<div class="cat">
-<h2>UI</h2>
-<%= link_to image_tag("UI.png"), category_path(@categories.where(category_id: 2).first), class: "uiimg" %>
-</div>
-
-<div class="cat">
-<h2>Auction</h2>
-<%= link_to image_tag("ah.png"), category_path(@categories.where(category_id: 3).first), class: "ahimg" %>
-</div>
-
-<div class="cat">
-<h2>Toolbars</h2>
-<%= link_to image_tag("toolbar.png"), category_path(@categories.where(category_id: 4).first), class: "toolimg" %>
-</div>
-
-<div class="cat">
-<h2>Questing</h2>
-<%= link_to image_tag("quest.png"), category_path(@categories.where(category_id: 5).first), class: "questimg" %>
-</div>
-
-<div class="cat">
-<h2>Meters</h2>
-<%= link_to image_tag("meters.jpg"), category_path(@categories.where(category_id: 6).first), class: "metersimg" %>
-</div>
-
-<div class="cat">
-<h2>Bags</h2>
-<%= link_to image_tag("bag.png"), category_path(@categories.where(category_id: 7).first), class: "bagimg" %>
-</div>
-
-</div>
 

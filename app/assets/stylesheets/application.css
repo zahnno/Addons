@@ -37,3 +37,124 @@ header {
 	height: 100px;
 	background: black;
 }
+
+@font-face {
+    font-family: 'si';
+    src: url('/assets/socicon.eot');
+    src: url('/assets/socicon.eot?#iefix') format('embedded-opentype'),
+         url('/assets/socicon.woff') format('woff'),
+         url('/assets/socicon.ttf') format('truetype'),
+         url('/assets/socicon.svg#icomoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+ 
+}
+ 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(/assets/socicon.svg) format(svg);
+    }
+}
+
+.soc {
+    overflow:hidden;
+    margin:0; padding:0;
+    list-style:none;
+    display: inline-block;
+    margin-left: 9%;
+    margin-bottom: 7%;
+}
+
+.soc li {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+}
+
+.soc li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 62px;
+    height: 62px;
+    line-height: 62px;
+    font-size: 34px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    color: #ffffff;
+    background-color: none;
+}
+
+.soc a:hover {
+    z-index: 2;
+    
+}
+
+.soc-icon-last{
+    margin:0 !important;
+}
+
+.soc-twitter {
+    background-color: #4da7de;
+}
+.soc-twitter:before {
+    content:'a';
+}
+.soc-instagram {
+    background-color: #9c7c6e;
+}
+.soc-instagram:before {
+    content:'x';
+}
+.soc-email2 {
+    background-color: #578AD6;
+}
+.soc-email2:before {
+    content:'.';
+}
+.soc-youtube {
+    background-color: #e02a20;
+}
+.soc-youtube:before {
+    content:'r';
+}
+
+.soc-twitter:hover {
+    background-color: #3993ca;
+}
+.soc-instagram:hover {
+    background-color: #88685a;
+}
+.soc-email2:hover {
+    background-color: #4376c2;
+}
+.soc-youtube:hover {
+    background-color: #cc160c;
+}

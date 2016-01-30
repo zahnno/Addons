@@ -9,6 +9,7 @@ end
 
 def show
 	@addon = Addon.find(params[:id])
+	@categories = Category.all
 end
 
 end

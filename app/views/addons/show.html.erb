@@ -1,7 +1,14 @@
+
 <div class="mainaddon">
-<h2><%= @addon.name %></h2><br>
-<%= @addon.description %><br>
-<%= @addon.category %><br>
-<%= @addon.support %><br>
-<%= link_to "Download", "/addons/AceTimer.zip" %>
+
+<%= image_tag @addon.image, class: 'imageshow' %>
+	<div class="desc">
+	<h2 style="padding-top: 20px; margin-top: 0; font-size: 35px;"><%= @addon.name %></h2><br>
+	<%= @addon.description%><br><br>
+	<%= @addon.support %><br><br>
+	<%= link_to "Download", "/addons/AceTimer.zip" %>
+	</div>
 </div>
+
+
+
