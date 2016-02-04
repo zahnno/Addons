@@ -1,22 +1,22 @@
-
-
-<h1><%= @category.name %></h1>
-
 <div class="most-pop">
+	<h1><%= @category.name %></h1>
 	<% @addons.each do |addon| %>
-		<div class="top3">
-			<h1><%= link_to addon.name, addon_path(addon) %></h1>
-			<div class="imgcontainer">
+	<div class="top3">
+		<h1><%= link_to addon.name, addon_path(addon) %></h1>
+		<div class="imgcontainer">
 			<%= link_to image_tag(addon.image), addon_path(addon) %>
-			</div>
-			<h1><%= link_to addon.category, category_path(addon.category_id) %></h1>
-			<h3 style="color:grey">Version: 1.12.1</h3>
-			<div class="ellipsis">
-    		<div>
-			<p><%= addon.description %></p>
-			</div>
-			</div>
-		
 		</div>
-	<% end %>
+		
+		<h1><%= link_to addon.category, category_path(addon.category_id) %></h1>
+		<h3 style="color:grey">Version: 1.12.1</h3>
+		
+		<div class="ellipsis">
+    		<div>
+				<p><%= addon.description %></p>
+			</div>
+		</div>
+		
+	</div>
+<% end %>
+</div>
 

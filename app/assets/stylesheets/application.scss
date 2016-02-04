@@ -159,10 +159,36 @@ header {
     background-color: #cc160c;
 }
 
-.social{
-	width:500px;
-	display: inline-block;
-	text-align: center;
-	vertical-align: top;
-	margin-top: 110px;
+.footlogo{
+    padding: 50px 0;
+    display: inline-block;
+    width: 420px;
+    height: auto;
 }
+
+.social {
+    vertical-align: top;
+    margin-top: 70px;
+    display: inline-block;
+    height: auto;
+    padding: 50px 0;
+    width: 420px;
+    text-align: center;
+}
+
+.aboutlink{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    width: 420px;
+    padding-top: 120px;
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+}
+
+footer{
+    background: #1a1a1a;
+    height: auto;
+    width: 100%;
+ }
