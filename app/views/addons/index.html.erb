@@ -20,7 +20,7 @@
 </div>
 
 <div class="most-pop" style= "background: #0d0d0d;">
-	<h2>Our Picks</h2>
+	<h2 class="nav-cat">Our Picks</h2>
 	<% @top3[0..6].each do |addon| %>
 	<div class="top3">
 			<h1><%= link_to addon.name, addon_path(addon) %></h1>

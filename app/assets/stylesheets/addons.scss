@@ -24,7 +24,7 @@
 	text-align: center;
 	vertical-align: top;
 	width: 150px;
-	height: 145px;
+	height: 130px;
 	font-size: 10px;
 }	
 
@@ -95,6 +95,10 @@
 	color:grey;
 }
 
+.catname{
+	font-size: 12px;
+}
+
 .imgcontainer{
 	height:250px;
 	width: 100%;
@@ -123,7 +127,7 @@
 	height: 90px;
 }
 
-p { margin: 0; padding: 0; font-family: sans-serif;}
+p { margin: 0; padding: 0;}
 
 .ellipsis {
     overflow: hidden;
@@ -166,6 +170,10 @@ p { margin: 0; padding: 0; font-family: sans-serif;}
 	display: inline-block;
 	width: 40%;
 	height: auto;
+ }
+
+ .nav-cat {
+ 	font-size: 40px;
  }
 
  .mainaddon{
