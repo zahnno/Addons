@@ -13,11 +13,14 @@
  *= require_tree .
  *= require_self
  */
-
+html{
+    background: #330000;
+}
 body{
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
+    background: black;
 	background: image-url("backimg2.png");
 	background-size: cover;
 	color: white;

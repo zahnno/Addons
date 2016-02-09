@@ -1,7 +1,7 @@
 
 <div class="most-pop">
 	<h2 class="nav-cat">Most Popular</h2>
-	<% @top3[0..2].each do |addon| %>
+	<% @top3[0..3].each do |addon| %>
 		<div class="top3">
 			<h1><%= link_to addon.name, addon_path(addon) %></h1>
 			<div class="imgcontainer">
@@ -17,6 +17,27 @@
 		
 		</div>
 	<% end %>
+</div>
+
+<div class="most-pop" style= "background: #0d0d0d;">
+	<h2>Our Picks</h2>
+	<% @top3[0..6].each do |addon| %>
+	<div class="top3">
+			<h1><%= link_to addon.name, addon_path(addon) %></h1>
+			<div class="imgcontainer">
+			<%= link_to image_tag(addon.image), addon_path(addon) %>
+			</div>
+			<h1><%= link_to addon.category, category_path(addon.category_id) %></h1>
+			<h3 style="color:grey">Version: 1.12.1</h3>
+			<div class="ellipsis">
+    		<div>
+			<p><%= addon.description %></p>
+			</div>
+			</div>
+		
+		</div>
+	<% end %>
+
 </div>
 
 
