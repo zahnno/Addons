@@ -7,6 +7,7 @@
 	<%= link_to @addon.category, category_path(@addon.category_id), class: 'cateshow' %></h2><br><br>
 	<%= @addon.description%><br><br>
 	<%= @addon.support %><br><br>
+	Views: <%= @addon.dtime %><br><br>
 	File Size: <%= @addon.filesize %><br><br>
 	<%= link_to "Download", @addon.downloadlink %>
 	</div>
