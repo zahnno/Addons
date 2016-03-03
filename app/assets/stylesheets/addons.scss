@@ -132,6 +132,12 @@
 	height: 90px;
 }
 
+.desc h2{
+	padding-top: 20px; 
+	margin-top: 0; 
+	font-size: 35px;
+}
+
 p { margin: 0; padding: 0;}
 
 .ellipsis {
@@ -191,7 +197,7 @@ p { margin: 0; padding: 0;}
  	vertical-align: top;
  	margin-top: 0;
  	text-align: center;
- 	margin-left: 5%;
+ 	margin-left: 8%;
  }
 
  .about{
@@ -278,5 +284,22 @@ p { margin: 0; padding: 0;}
 		font-size: 50px;
 	}
 
+	.desc {
+		width: 100%;
+		margin: 0;
+	}
+
+	.desc h2{
+		font-size: 80px;
+	}
+
+	.desc a{
+		font-size: 50px;
+	}
+
+	.mainaddon img {
+		width: 100%;
+		margin-bottom: 5%;
+	}
 }
 

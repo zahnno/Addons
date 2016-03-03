@@ -3,7 +3,7 @@
 
 <%= image_tag @addon.image, class: 'imageshow' %>
 	<div class="desc">
-	<h2 style="padding-top: 20px; margin-top: 0; font-size: 35px;"><%= @addon.name %></h2>
+	<h2><%= @addon.name %></h2>
 	<%= link_to @addon.category, category_path(@addon.category_id), class: 'cateshow' %></h2><br><br>
 	<%= @addon.description%><br><br>
 	<%= @addon.support %><br><br>
