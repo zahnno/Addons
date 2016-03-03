@@ -199,3 +199,67 @@ p { margin: 0; padding: 0;}
  	background: black;
  	height: 500px;
  }
+
+@media only screen and ( max-device-width: 860px){
+	.cat {
+		width: 200px;
+		height: 180px;
+
+	}
+
+	.catname {
+		font-size: 30px;
+	}
+
+	.categories{
+		padding-bottom: 50px;
+	}
+
+	.mapimg img{
+		width: 100px;
+		height: 100px;
+		margin-top: 10px;
+	}
+
+	.uiimg img{
+		width: 100px;
+		height: 85px;
+		margin-top: 15px;
+	}
+
+	.toolimg img{
+		width: 100px;
+		height: 85px;
+		margin-top: 17px;
+	}
+
+	.ahimg img{
+		width: 90px;
+		height: 90px;
+		margin-top: 12px;
+
+	}
+
+	.questimg img{
+		width: 25px;
+		height: 85px;
+
+		margin-top: 20px;
+	}
+
+	.metersimg img{
+		width: 100px;
+		height: 90px;
+		margin-top: 18px;
+
+	}
+
+	.bagimg img{
+		width: 90px;
+		height: 90px;
+		margin-top: 20px;
+
+	}
+
+}
+
