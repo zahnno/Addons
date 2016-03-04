@@ -13,6 +13,25 @@
 <body>
 <header>
 <%= link_to image_tag('vanlogo.png'), addons_path, class: "logo" %>
+
+  <% if current_user %>
+       <div class = "signup">
+     <%= link_to "Log out", session_path("current"), :method => :delete %>
+     </div>
+     <div class = "login">
+     <%= link_to "Profile", current_user %>
+     </div>
+  <% else %>
+
+
+     <div class = "signup">
+       <%= link_to "Sign up", new_user_path %>
+     </div>
+
+     <div class = "login">
+       <%= link_to "Log in", new_session_path %> 
+     </div>
+  <% end %>
 </header>
 
 <div class="categories">
