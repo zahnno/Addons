@@ -8,5 +8,6 @@ resources :categories
 
 resources :users, only: [:new, :create, :show]
 resources :sessions, only: [:new, :create, :destroy]
+resources :games, only: [:show, :index]
 
 end
