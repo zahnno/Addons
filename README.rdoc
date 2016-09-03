@@ -1,8 +1,7 @@
+# Vanilla Favor
 
-VanillaFavor!
 
-
-A gaming hub for addons, guides, servers, and strategies. (Guild wars 1 & 2, World of Warcraft, Warhammer etc...)
+### A gaming hub for addons, guides, servers, and strategies. (Guild wars 1 & 2, World of Warcraft, Warhammer etc...)
 
 
 Ruby on Rails Set up Req ***
