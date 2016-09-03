@@ -23,3 +23,4 @@ Open in webrowser localhost:3000
 
 Please message if you'd like to contribute.
 
+Visit Vanillafavor.com for current release site.
